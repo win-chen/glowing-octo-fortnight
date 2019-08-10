@@ -4,6 +4,10 @@
     "rootDir": ".",
     "outDir": "build",
     "experimentalDecorators": true,
+            "lib": [
+            "es2016",
+            "dom"
+        ]
   },
   "include": [
     "src/**/*.ts",
