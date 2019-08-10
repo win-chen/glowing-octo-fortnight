@@ -4,6 +4,7 @@
   "description": "",
   "main": "app/index.js",
   "dependencies": {
+    "express": "^4.17.1",
     "lit-element": "^2.2.1"
   },
   "devDependencies": {
