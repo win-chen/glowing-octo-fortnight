@@ -1,0 +1,34 @@
+{
+  "name": "glowing-octo-fortnight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.3",
+    "gts": "^1.1.0",
+    "typescript": "~3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/win-chen/glowing-octo-fortnight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/win-chen/glowing-octo-fortnight/issues"
+  },
+  "homepage": "https://github.com/win-chen/glowing-octo-fortnight#readme"
+}
