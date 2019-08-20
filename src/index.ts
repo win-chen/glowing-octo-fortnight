@@ -1,1 +1,1 @@
-import NoteCard from './components/note-card';
+import {NoteCard} from './components/note-card';

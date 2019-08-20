@@ -9,6 +9,7 @@ const PORT = 1234;
 
 const app = express()
 app.use(express.static('public'))
+app.use(express.static('build'))
 
 app.get('/', (req, res) => res.redirect('/index.html'));
 
