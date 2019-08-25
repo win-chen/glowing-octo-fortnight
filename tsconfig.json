@@ -2,9 +2,10 @@
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
     "rootDir": ".",
-    "module": "AMD",
+    "module": "umd",
+    "declarationDir": "declarations",
+    "outDir": "build",
     "moduleResolution": "node",
-    "outFile": "./build/index.js",
     "experimentalDecorators": true,
             "lib": [
             "es2016",
