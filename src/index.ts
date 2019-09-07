@@ -1,1 +1,12 @@
-import {NoteCard} from './components/note-card';
+import { LitElement, html, customElement, property } from 'lit-element';
+
+@customElement('test-app') 
+export class App extends LitElement {
+	render() {
+		return html`
+			<div>
+			hello
+			</div>
+		`;
+	}
+}

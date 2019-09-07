@@ -5,3 +5,5 @@ misc/
 build/
 
 declarations/
+
+dist/

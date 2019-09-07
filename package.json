@@ -6,12 +6,16 @@
   "dependencies": {
     "express": "^4.17.1",
     "lit-element": "^2.2.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
   },
   "devDependencies": {
     "@types/node": "^10.0.3",
     "gts": "^1.1.0",
-    "typescript": "~3.5.0"
+    "ts-loader": "^6.0.4",
+    "typescript": "~3.5.0",
+    "webpack-dev-server": "^3.8.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +25,8 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run check"
+    "posttest": "npm run check",
+    "start-dev": "npx webpack-dev-server --open"
   },
   "repository": {
     "type": "git",

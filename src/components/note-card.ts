@@ -20,7 +20,6 @@ export class NoteCard extends LitElement {
    * Implement `render` to define a template for your element.
    */
   render() {
-    console.log('rendering');
     /**
      * Use JavaScript expressions to include property values in
      * the element template.
